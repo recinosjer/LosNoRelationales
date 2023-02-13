@@ -1,0 +1,4 @@
+cd existing_repo
+git remote add origin https://gitlab.com/bases-de-datos-ii1/almacenamientohtml5.git
+git branch -M main
+git push -uf origin main
