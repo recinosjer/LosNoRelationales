@@ -8,20 +8,16 @@ and open the template in the editor.
     Author     : ljavier
 */
 @charset "utf-8";
-#miaudio{
+#play{
     width:520px;
     margin:20px auto;
     background: #FC3;
     padding: 5px;
-    
-    border:2px solid #F60;
-    -mod- border-radius:8px;
-    -webkit- border-radius:8px;
-    border-radius:8px;
+    border:2px solid #F60;  
 }
 
 nav{
- margin px:10px 0;   
+ margin: 10px 0;   
     
 }
 #botones{

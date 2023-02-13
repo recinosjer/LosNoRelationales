@@ -6,7 +6,7 @@
 let miaudio, reproducir, progreso, maximo;
 maximo=530;
 function comenzar(){
-    miaudio=document.getElementById("miaudio");
+   miaudio=document.getElementById("miaudio");
    reproducir=document.getElementById("play");
    barra=document.getElementById("barra");
    progreso=document.getElementById("progreso");
@@ -40,10 +40,10 @@ function estado(){
 
 
 function adelantando(posicion){
-    if((mivideo.paused===false) && (mivideo.ended===false)){
+    if((miaudio.paused===false) && (miaudio.ended===false)){
         var ratonX=posicion.pageX-barra.offsetLeft; // pageX y offsetLeft son propiedades que me permiten ubicar un punto en la pantalla
         var nuevoTiempo=ratonX*mivideo.duration/maximo;
-        mivideo.currentTime=nuevoTiempo;
+        miaudio.currentTime=nuevoTiempo;
         progreso.style.width=ratonX+"px";
     }
 }
