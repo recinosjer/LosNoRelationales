@@ -8,7 +8,7 @@ and open the template in the editor.
     Author     : ljavier
 */
 @charset "utf-8";
-#video{
+#miaudio{
     width:520px;
     margin:20px auto;
     background: #FC3;
@@ -26,8 +26,8 @@ nav{
 }
 #botones{
     float: left;
-    width:100px;
-    height:100px;
+    width:200px;
+    height:200px;
 }
 #barra{
     background:#FFF;

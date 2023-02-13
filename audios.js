@@ -3,19 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-var miaudio, reproducir, progreso, maximo;
-maximo=430;
+let miaudio, reproducir, progreso, maximo;
+maximo=530;
 function comenzar(){
     miaudio=document.getElementById("miaudio");
    reproducir=document.getElementById("play");
    barra=document.getElementById("barra");
    progreso=document.getElementById("progreso");
    
-    reproducir.addEventListener("click",clicando,false);
+    reproducir.addEventListener("click",clickando,false);
     barra.addEventListener("click",adelantando,false);
 }
 
-function clicando() {
+function clickando() {
     
     if((miaudio.paused==false) && (miaudio.ended==false)){
         miaudio.pause();
